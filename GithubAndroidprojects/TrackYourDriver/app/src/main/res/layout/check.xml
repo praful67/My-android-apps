@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/exoreg"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:text="Set Your Status"
+            android:textColor="@android:color/black"
+            android:textSize="18dp" />
+
+
+        <in.shadowfax.proswipebutton.ProSwipeButton
+            android:id="@+id/proswipebutton_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/exoreg"
+            android:layout_margin="15dp"
+            app:btn_text="Check In" />
+
+        <TextView
+            android:id="@+id/currentstatus"
+            android:layout_width="match_parent"
+            android:fontFamily="@font/exoreg"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:text="current status" />
+
+        <TextView
+            android:id="@+id/comment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text=" FEEDBACK AND COMMENT"
+            android:fontFamily="@font/exoreg"
+            android:textStyle="bold"
+            android:clickable="true"
+            android:textColor="#FF22A6DA" />
+    </LinearLayout>
+</RelativeLayout>

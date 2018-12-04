@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="dividerColor">#1F000000</color>
+    <color name="colorPrimary">#0a091b</color>
+    <color name="colorPrimaryDark">#070716</color>
+    <color name="colorAccent">#1d1e1e</color>
+    <color name="bottom">#6b6b76</color>
+    <color name="rippleeffectcolour">#f816a463</color>
+    <color name="btnsignin">#1d1e1e</color>
+    <color name="btnreg">#1d1e1e</color>
+    <color name="basereleasecolor">#212121</color>
+    <color name="basepresscolor">#FAFAFA</color>
+    <color name="ballreleasecolor">#9E9E9E</color>
+    <color name="startblue">#dd16cef7</color>
+    <color name="endblue">#7ce7fc</color>
+    <color name="unselect">#fff </color>
+</resources>

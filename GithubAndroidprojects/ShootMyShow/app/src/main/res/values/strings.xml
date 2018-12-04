@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">ShootMyShow</string>
+    <string name="title_activity_home">Home</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="ad_banner">ca-app-pub-9524879716808248/3965203897</string>
+    <string name="ad_interstitial">ca-app-pub-9524879716808248/8214498142</string>
+    <string name="google_direction_api">AIzaSyCP71nlwubKyaZQf5DathqsIhUZPJzLsOc</string>
+    <!--
+    <string name="google_direction_api">AIzaSyBqCEw8p6HXSxR-40258U4oOJx-QG0qEBo</string>
+-->
+    <string name="facebook_app_id">880746882205089</string>
+    <string name="ACCOUNT_KIT_CLIENT_TOKEN">717f5acd9b8f78866bf9b310b6edce4d
+</string>
+    <string name="fb_login_protocol_scheme">fb880746882205089</string>
+    <string name="title_activity_call_companyfor_advance_booking">Manual booking</string>
+</resources>

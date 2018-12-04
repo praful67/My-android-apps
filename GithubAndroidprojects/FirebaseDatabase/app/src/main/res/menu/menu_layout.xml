@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<item android:id="@+id/btn_add"
+    app:showAsAction="always"
+    android:icon="@drawable/ic_add"
+    android:title="ADD"
+    />
+
+<item android:id="@+id/btn_save"
+    app:showAsAction="always"
+    android:icon="@drawable/ic_save"
+    android:title="SAVE"
+    />
+<item android:id="@+id/btn_remove"
+    app:showAsAction="always"
+    android:icon="@drawable/ic_remove"
+    android:title="REMOVE"
+    />
+
+</menu>

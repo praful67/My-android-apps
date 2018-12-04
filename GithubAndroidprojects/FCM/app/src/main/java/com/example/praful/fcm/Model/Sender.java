@@ -1,0 +1,35 @@
+package com.example.praful.fcm.Model;
+
+
+public class Sender {
+
+    public Notification getNotification() {
+        return notification;
+    }
+
+    public void setNotification(Notification notification) {
+        this.notification = notification;
+    }
+
+    public String getTo() {
+        return to;
+    }
+
+    public void setTo(String to) {
+        this.to = to;
+    }
+
+    public Sender( String to , Notification notification) {
+
+        this.notification = notification;
+        this.to = to;
+    }
+
+    public Sender() {
+
+    }
+
+    public Notification notification;
+    public String to;
+
+}

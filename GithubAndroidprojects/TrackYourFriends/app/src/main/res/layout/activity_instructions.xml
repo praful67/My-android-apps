@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Instructions">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="60dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:text="INSTRUCTIONS"
+                android:textColor="@android:color/black"
+                android:textSize="19dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="This app is basically for those who want keep the track of their friends . Not only friends but also love partners or children or siblings.. etc
+\n
+As soon as you sign up , you will be given a unique ID and this ID is very important and dont share with everyone , share with only those who are allowed to track you.
+\n
+With this app we can not only track but also see how much distance , time far is your friend from you in LIVE TRACKING
+\n
+All marker pins are Real-Time
+\n
+All we need to do is : Type your friend's ID and See where your friend is.
+\n
+There is no need to keep app open always .
+\n
+First important thing to see is that ,the person who is being tracked should keep their GPS Locations ON and there is no need to keep app open always . Just tell your friend (you can order if it is your love partner or child ,just kidding) to open the app once , accept the request to turn ON Locations if it turned OFF and then he or she can close the app and do their work and he or she can tracked by knowing their ID.
+\n
+Then you can find where your child or love partner or your friends are .
+\n
+YOU CAN YOUR ID IS PROFILE PAGE
+\n
+To get Real Time Locations , all Locations updates are taken in background . But if you are running your device in Power Saving Mode ON ,  Please open Battery Optimization dialog box by clicking the Settings button below and accept it by clicking 'OK' to get your Location updated and set Real Time Locations , even when the app is removed from background or killed .
+            "
+                android:textColor="@android:color/black" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:text="Settings"
+                android:id="@+id/settings"
+                android:layout_margin="10dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/ad_banner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        app:adSize="BANNER"
+        app:adUnitId="@string/ad_banner" />
+</RelativeLayout>

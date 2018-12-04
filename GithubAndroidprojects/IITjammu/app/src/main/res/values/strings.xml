@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">IIT Jammu</string>
+
+
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+    <string name="about">It was a memorable day on May 01,2016 at Jammu, when a Memorandum of Understanding (MoU) between Department of Higher Education, Government of Jammu and Kashmir and Department of Higher Education, MHRD, Government of India, was signed, setting the ball rolling to set up an IIT campus at village Jagti, Tehsil Nagrota at Jammu. The site is located on the National Highway 44 and is about 15 Km from the Airport. The State Government, Jammu and Kashmir has provided the land, measuring 400 acres for the establishment of the permanent campus of Indian Institute of Technology at Jammu. The Land has been handed over to the CPWD, Jammu Division to take up the construction of the Transit campus at Jagti as per layout plan.
+
+IIT Jammu admitted the first batch of 82 bright students in August 2016 at a Temporary campus in Paloura, Jammu. The initial intake of students in the first year 2016 was 90 students, 30 each in Computer Science and Engineering, Electrical Engineering and Mechanical Engineering discipline.
+
+The transit campus at Jagti spread over 25 acres within the actual site of 400 acres became operational from the session 2017-18 in August 2017 and it can accommodate about 650 students. In the second year 2017, Civil Engineering discipline also started with an initial intake of 30 students.
+
+  It was a memorable day on May 01,2016 at Jammu, when a Memorandum of Understanding (MoU) between Department of Higher Education, Government of Jammu and Kashmir and Department of Higher Education, MHRD, Government of India, was signed, setting the ball rolling to set up an IIT campus at village Jagti, Tehsil Nagrota at Jammu. The site is located on the National Highway 44 and is about 15 Km from the Airport. The State Government, Jammu and Kashmir has provided the land, measuring 400 acres for the establishment of the permanent campus of Indian Institute of Technology at Jammu. The Land has been handed over to the CPWD, Jammu Division to take up the construction of the Transit campus at Jagti as per layout plan.
+
+IIT Jammu admitted the first batch of 82 bright students in August 2016 at a Temporary campus in Paloura, Jammu. The initial intake of students in the first year 2016 was 90 students, 30 each in Computer Science and Engineering, Electrical Engineering and Mechanical Engineering discipline.
+
+The transit campus at Jagti spread over 25 acres within the actual site of 400 acres became operational from the session 2017-18 in August 2017 and it can accommodate about 650 students. In the second year 2017, Civil Engineering discipline also started with an initial intake of 30 students.
+   </string>
+    <array name="menuOptions">
+        <item>SOS</item>
+        <item>Employees List</item>
+        <item>Drivers List</item>
+        <item>Created</item>
+        <item>Read</item>
+    </array>
+
+</resources>

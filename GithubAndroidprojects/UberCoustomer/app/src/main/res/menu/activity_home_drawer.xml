@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:icon="@drawable/ic_system_update_alt_black_24dp"
+            android:id="@+id/nav_updateinfo"
+            android:title="UPDATE YOUR PROFILE" />
+        <item
+            android:icon="@drawable/ic_list_black_24dp"
+            android:id="@+id/nav_AdvanceBooking"
+            android:title="ADVANCE BOOKINGS" />
+        <item
+            android:icon="@drawable/cancel_24dp"
+            android:id="@+id/nav_CanceledBookings"
+            android:title="CANCELLED BOOKINGS" />
+
+        <item
+            android:icon="@drawable/ic_playlist_add_check_black_24dp"
+            android:id="@+id/nav_CompletedBookings"
+            android:title="COMPLETED BOOKINGS" />
+
+        <item
+            android:icon="@drawable/ic_arrow_back_black_24dp"
+            android:id="@+id/nav_signout"
+            android:title="SIGN OUT" />
+
+    </group>
+
+
+</menu>

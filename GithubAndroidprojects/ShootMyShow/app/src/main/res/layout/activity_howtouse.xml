@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Howtouse">
+
+    <ScrollView
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/black"
+                android:gravity="center"
+                android:paddingVertical="10dp"
+                android:text="WELCOME"
+                android:textColor="@android:color/holo_blue_light"
+                android:textSize="30dp" />
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/back"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_arrow_back_black_24dp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="This app is for booking a camera studio for your event.
+The event can be Party event , Function or a Photoshooting event.
+"
+                android:textColor="@android:color/black"
+                android:textSize="12dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="FUNCTION EVENT : "
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Events like Wedding , Marriage ,Dinner, Sangeet
+Silver jublee ..etc"
+                android:textColor="@android:color/black"
+                android:textSize="12dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PARTY EVENT : "
+                android:textColor="@android:color/black"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Any party event like Birthday party or College party ...etc"
+                android:textColor="@android:color/black"
+                android:textSize="12dp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="PHOTOSHOOT EVENT : "
+                android:layout_marginVertical="5dp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="This event is for Photoshooting.
+Get some cool , awesome pics"
+                android:textColor="@android:color/black"
+                android:textSize="12dp" />
+
+            <com.google.android.gms.ads.AdView
+                android:id="@+id/ad_banner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginVertical="15dp"
+                app:adSize="BANNER"
+                app:adUnitId="@string/ad_banner" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="5dp"
+                android:gravity="center"
+                android:textColor="@android:color/black"
+                android:text="WHAT YOU SEE ON MAP ?"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/map" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10dp"
+                android:textColor="@android:color/black"
+                android:text="Those camera icons  are the available Camera Studios near you (around 25km from you). You have to turn ON gps location and in some android devices it may not show your location even after turning on your GPS , in that case please restart your mobile."
+                android:textSize="12dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="There are two ways to book. One is Automatic and another one is Manually"
+                android:textColor="@android:color/black"
+                android:textSize="12dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Automatic Booking : "
+                android:textColor="@android:color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="This booking method gives you a studio automatically. It gives you the nearest studio available to your CURRENT LOCATION
+
+First click on ADVANCE BOOKING button"
+                android:textColor="@android:color/black"
+                android:textSize="12dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/ab"
+                />
+            <com.google.android.gms.ads.AdView
+                android:id="@+id/ad_banner1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginVertical="10dp"
+                app:adSize="BANNER"
+                app:adUnitId="@string/ad_banner" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="After clicking you will see a dailog to set pick up address. Here there are three ways to set the pick up address.
+"
+                android:textColor="@android:color/black"
+                android:textSize="12dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="One by tapping 'SELECT CURRENT LOCATION"
+                android:textColor="@android:color/black"
+                android:textSize="12dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/cl"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Two by tapping 'SELECT TAPPED LOCATION"
+                android:textColor="@android:color/black"
+                android:textSize="12dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/tl"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Here the tapped location address is the point address that you tap on Map before clicking ADVANCE BOOKING button.
+If you want to set address by tapping a location on Map ,this is the way."
+                android:textColor="@android:color/black"
+                android:textSize="12dp"
+                android:textStyle="bold" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/tl1"
+                />
+            <com.google.android.gms.ads.AdView
+                android:id="@+id/ad_banner2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginVertical="10dp"
+                app:adSize="BANNER"
+                app:adUnitId="@string/ad_banner" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Three by searching a address in search bar"
+                android:textColor="@android:color/black"
+                android:textSize="12dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/search"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Here you can directly search a address in search bar before clicking ADVANCE BOOKING button and that address will be set as your pick up address automatically"
+                android:textColor="@android:color/black"
+                android:textSize="12dp"
+                android:textStyle="bold" />
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_weight="2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/sb"
+                    />
+
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/sb1"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Manual Booking : "
+                android:textColor="@android:color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Everything is same , the only difference is that , if you want to select the studio that you want and not the nearest studio , this is the way.
+Just tap on a camera icon tha you see on Map and you will see a dailog showing details of that studio.
+Every icon resembles a Studio."
+                android:textColor="@android:color/black"
+                android:textSize="12dp"
+                android:textStyle="bold" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:drawable/alert_light_frame"
+                android:gravity="center"
+                android:text="By clicking on ADVANCE BOOKING button we will give you the nearest studio to your current location and send booking to this nearest studio automatically.
+You can manually select a studio by tapping on icon you see on Map"
+                android:textColor="@android:color/black"
+                android:textSize="12dp" />
+            <com.google.android.gms.ads.AdView
+                android:id="@+id/ad_banner3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginVertical="10dp"
+                app:adSize="BANNER"
+                app:adUnitId="@string/ad_banner" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:drawable/alert_light_frame"
+                android:gravity="center"
+                android:text="We will just make you meet with the best camera studios near you ,all other BILLING DETAILS AND LOCATION PERMISSIONS WILL BE HANDELED BY CUSTOMERS OR STUDIO PRIVATELY . There is NO company from us except making you booked. Any issues regarding only about the app , can email to 'shootmyshowmyapp123@gmail.com' and new cool features are comming soon so be updated.
+HAPPY BOOKING ."
+                android:textColor="@android:color/black"
+                android:textSize="15dp" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

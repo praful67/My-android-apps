@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Track Your Friends</string>
+    <string name="title_activity_findfriends">Map</string>
+    <string name="title_activity_live_track">Map</string>
+    <string name="ad_banner">ca-app-pub-9524879716808248/6525184284</string>
+    <string name="ad_interstitial">ca-app-pub-9524879716808248/2035398649</string>
+
+</resources>

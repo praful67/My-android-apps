@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Whentouse">
+<ScrollView
+    android:layout_margin="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:textSize="20dp"
+            android:text="ABOUT "
+            android:textColor="@android:color/black"
+            android:gravity="center"
+            android:layout_height="wrap_content" />
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/back"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_arrow_back_black_24dp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:text="Having any event in your home ?"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textSize="12dp"
+            android:layout_marginTop="10dp"
+            android:text="Is something happening grand in you home like Sangeet , Wedding , Marriage , Silver Jublee , or a Pooja ? Get some grand pics by booking a Function Event"
+            />
+    <com.Shootmyshow.praful.shootmyshow.GabrielleViewFlipper
+        android:id="@+id/VFF"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+      <com.flaviofaria.kenburnsview.KenBurnsView
+          android:layout_width="match_parent"
+          android:layout_height="200dp"
+          android:id="@+id/F1"
+          android:src="@drawable/f1"
+          android:layout_gravity="center"
+          />
+        <com.flaviofaria.kenburnsview.KenBurnsView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/F2"
+            android:src="@drawable/f2"
+            android:layout_gravity="center"
+            />
+        <com.flaviofaria.kenburnsview.KenBurnsView
+            android:layout_width="match_parent"
+            android:id="@+id/F3"
+            android:src="@drawable/f3"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            />
+        <com.flaviofaria.kenburnsview.KenBurnsView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/F4"
+            android:src="@drawable/p1h"
+            android:layout_gravity="center"
+            />
+    </com.Shootmyshow.praful.shootmyshow.GabrielleViewFlipper>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/ad_banner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginVertical="10dp"
+            app:adSize="BANNER"
+            app:adUnitId="@string/ad_banner" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:text="Planning a party ?"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textSize="12dp"
+            android:layout_marginTop="10dp"
+            android:text="Are you planing any party with your friends for celebrating , having  a Birthday party  , Bachelor party or a College party ? And want to get some cool pics ?
+Book a Party Event."
+            />
+    <com.Shootmyshow.praful.shootmyshow.GabrielleViewFlipper
+        android:id="@+id/VFP"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+      <com.flaviofaria.kenburnsview.KenBurnsView
+          android:layout_width="match_parent"
+          android:layout_height="200dp"
+          android:id="@+id/p1"
+          android:src="@drawable/b1"
+          android:layout_gravity="center"
+          />
+        <com.flaviofaria.kenburnsview.KenBurnsView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/p2"
+            android:src="@drawable/p2"
+            android:layout_gravity="center"
+            />
+
+    </com.Shootmyshow.praful.shootmyshow.GabrielleViewFlipper>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:text="Photoshooting ?"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textSize="12dp"
+            android:layout_marginTop="10dp"
+            android:text="Going to nice place and want to Photoshoot ? or Wanna go out for being bored sitting at home singly ? or Going out with your family or with your partner ?
+Get some lovely pics and make sweet memories more."
+            />
+    <com.Shootmyshow.praful.shootmyshow.GabrielleViewFlipper
+        android:id="@+id/VFPH"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.flaviofaria.kenburnsview.KenBurnsView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/PH3"
+            android:src="@drawable/p2h1"
+            android:layout_gravity="center"
+            />
+        <com.flaviofaria.kenburnsview.KenBurnsView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/PH4"
+            android:src="@drawable/p5h"
+            android:layout_gravity="center"
+            />
+      <com.flaviofaria.kenburnsview.KenBurnsView
+          android:layout_width="match_parent"
+          android:layout_height="200dp"
+          android:id="@+id/PH1"
+          android:src="@drawable/p4h"
+          android:layout_gravity="center"
+          />
+        <com.flaviofaria.kenburnsview.KenBurnsView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/PH2"
+            android:src="@drawable/p3h"
+            android:layout_gravity="center"
+            />
+
+
+    </com.Shootmyshow.praful.shootmyshow.GabrielleViewFlipper>
+    </LinearLayout>
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/ad_banner1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginVertical="10dp"
+        app:adSize="BANNER"
+        app:adUnitId="@string/ad_banner" />
+
+</LinearLayout>
+</ScrollView>
+
+</RelativeLayout>

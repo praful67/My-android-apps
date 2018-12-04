@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SelectedCar">
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_arrow_back_black_24dp"
+        android:layout_margin="20dp"
+        android:id="@+id/back"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="A b o u t   t h i s   C a r"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_above="@id/l"
+        android:layout_marginBottom="20dp"
+        />
+
+    <LinearLayout
+        android:id="@+id/l"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="3dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@android:color/black" />
+
+            <Button
+                android:id="@+id/selectdriver"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:background="@drawable/btnsignin_background"
+                android:text="Update driver" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="10dp"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="3dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@android:color/black" />
+
+            <Button
+                android:id="@+id/selectemployees"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:background="@drawable/btnsignin_background"
+                android:text="update Employess" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="3dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@android:color/black" />
+
+            <Button
+                android:id="@+id/current"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:background="@drawable/btnsignin_background"
+                android:text="current" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="3dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@android:color/black" />
+
+            <Button
+                android:id="@+id/details"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:background="@drawable/btnsignin_background"
+                android:text="Details" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

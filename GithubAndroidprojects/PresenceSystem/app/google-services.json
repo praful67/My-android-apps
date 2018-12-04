@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "853659802159",
+    "firebase_url": "https://fireapp1-cb370.firebaseio.com",
+    "project_id": "fireapp1-cb370",
+    "storage_bucket": "fireapp1-cb370.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:853659802159:android:08e75ba443307ae1",
+        "android_client_info": {
+          "package_name": "com.example.praful.presencesystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "853659802159-2nmuuv9g3jseslqh03qg6b8o71326h6h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.praful.presencesystem",
+            "certificate_hash": "1f98bf20bdd98f6f27573d974ab736428350af98"
+          }
+        },
+        {
+          "client_id": "853659802159-uc5124sl4kt7tnm4c4245ff949h3l8vr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBH4DDN9km0_nw7V4KAtV-Z75dNHQul5PA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "853659802159-uc5124sl4kt7tnm4c4245ff949h3l8vr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

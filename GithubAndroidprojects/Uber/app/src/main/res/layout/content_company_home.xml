@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".CompanyHome"
+    tools:showIn="@layout/app_bar_company_home">
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/layout_panel"
+        tools:context=".CompanyHome" />
+    >
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:elevation="10dp">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="6"
+            android:layout_margin="2dp"
+            android:orientation="horizontal">
+
+        <io.ghyeok.stickyswitch.widget.StickySwitch
+            android:id="@+id/location_switch1"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_margin="5dp"
+            app:iconPadding="20dp"
+            app:iconSize="20dp"
+            app:leftIcon="@drawable/location"
+            app:rightIcon="@drawable/location_on"
+            app:sliderBackgroundColor="@android:color/black" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/companyphoto"
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_weight="2"
+                android:src="@drawable/ic_terrain_black_24dp"
+                app:civ_border_color="#5e1e1e1e"
+                app:civ_border_width="1dp" />
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="companyName"
+                    android:gravity="center"
+                    android:id="@+id/CompanyName"
+                    android:layout_marginTop="15dp"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="companyPhone"
+                    android:id="@+id/companyphone"
+                    android:gravity="center"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+            <Button
+                android:textColor="@android:color/white"
+                android:background="@drawable/btnsignin_background"
+                android:textSize="15dp"
+                android:text="HELP"
+                android:id="@+id/help"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

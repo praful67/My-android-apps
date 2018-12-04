@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1033830780009",
+    "firebase_url": "https://fireapp-48d08.firebaseio.com",
+    "project_id": "fireapp-48d08",
+    "storage_bucket": "fireapp-48d08.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1033830780009:android:6c2cfe36e66874a8",
+        "android_client_info": {
+          "package_name": "com.example.praful.blog"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1033830780009-29bjcc1mro46ubbnq51krmqsjp169fvl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.praful.blog",
+            "certificate_hash": "1f98bf20bdd98f6f27573d974ab736428350af98"
+          }
+        },
+        {
+          "client_id": "1033830780009-3r0ffm44a4l3jnu234pu5t0agdorf8hs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuwLCGA4peKUcbZGhMaATlGB3VTGjmgx0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1033830780009-3r0ffm44a4l3jnu234pu5t0agdorf8hs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.praful.ubercoustomer">
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality. 
+    -->
+    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.facebook.accountkit.ApplicationName"
+            android:value="@string/app_name" />
+        <meta-data xmlns:tools="http://schemas.android.com/tools"
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/FACEBOOK_APP_ID"
+            tools:replace="android:value" />
+        <meta-data
+            android:name="com.facebook.accountkit.ClientToken"
+            android:value="@string/ACCOUNT_KIT_CLIENT_TOKEN" />
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".Home"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme" />
+
+        <service
+            android:name=".Service.MyFirebaseIdService"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name=".Service.MyFirebaseMessaging"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name=".Myservice" />
+
+        <activity android:name=".RateActivity" />
+        <activity android:name=".CallCompany" />
+        <activity
+            android:name=".DeclinedWindow"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".AcceptedWindow"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".AdvanceBookings"
+            android:parentActivityName=".Home"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".CompanyInfo" />
+        <activity android:name=".AdvanceBookingsDetails" />
+        <activity
+            android:name=".CompanycancelledtheBooking"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".CancelledBookings"
+            android:parentActivityName=".Home"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".VerifyingCompletedBooking" />
+        <activity
+            android:name=".CompletedBookings"
+            android:parentActivityName=".Home"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Onthewayandimreached"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".RateactivityforAdvanceBooking"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".CallCompanyforAdvanceBooking"
+            android:label="@string/title_activity_call_companyfor_advance_booking"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Howtouse"
+            android:parentActivityName=".Home"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".Listofavailablecompanies" />
+        <activity android:name=".Availablecompanydetails" />
+
+        <receiver
+            android:name=".MyReceiver"
+            android:enabled="true"
+            android:exported="true"
+            >
+           <!-- <intent-filter>
+
+                <action android:name="com.example.praful.ubercoustomer"></action>
+            </intent-filter>
+-->
+        </receiver>
+    </application>
+
+</manifest>

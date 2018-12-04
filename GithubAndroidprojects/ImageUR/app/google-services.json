@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "301564144511",
+    "firebase_url": "https://fireapp-20076.firebaseio.com",
+    "project_id": "fireapp-20076",
+    "storage_bucket": "fireapp-20076.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:301564144511:android:217b93e134cf9908",
+        "android_client_info": {
+          "package_name": "com.example.praful.imageur"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "301564144511-gq4nc1d82311jdgjhhovqrbcmrgjspbl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.praful.imageur",
+            "certificate_hash": "1f98bf20bdd98f6f27573d974ab736428350af98"
+          }
+        },
+        {
+          "client_id": "301564144511-gbcmb8s1knt6j2t5r1gq08t5hs9ffa0v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBL54WVz_1dUhrWQhIINGv_Sl00aK0RbR0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "301564144511-gbcmb8s1knt6j2t5r1gq08t5hs9ffa0v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

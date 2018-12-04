@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_margin="2dp"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:id="@+id/li"
+        android:layout_height="wrap_content">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@android:color/darker_gray"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textColor="@android:color/holo_blue_light"
+            android:background="@android:color/black"
+            android:text="TAP ON MAP"
+            android:paddingVertical="5dp"
+            />
+
+
+    <TextView
+        android:layout_margin="2dp"
+        android:layout_marginTop="10dp"
+        android:textSize="15dp"
+        android:textColor="@android:color/black"
+        android:layout_below="@id/li"
+        android:text="Please tap the location on map where you want to call camera studio and set it as your Booking's pick up Address. You can even use the  search bar if the location is far and then tap . "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:background="@drawable/btnsignin_background"
+        android:textColor="@android:color/white"
+        android:text="OK"
+        android:id="@+id/done"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_refresh"
+            android:icon="@drawable/refresh"
+            android:title="Refresh" />
+        <item
+            android:id="@+id/nav_rideinout"
+            android:icon="@drawable/car"
+            android:title="Ride in and out " />
+        <item
+            android:id="@+id/nav_read"
+            android:icon="@drawable/readlines"
+            android:title="Read" />
+
+
+    </group>
+
+
+</menu>

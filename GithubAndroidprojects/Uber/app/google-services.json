@@ -1,0 +1,187 @@
+{
+  "project_info": {
+    "project_number": "301564144511",
+    "firebase_url": "https://fireapp-20076.firebaseio.com",
+    "project_id": "fireapp-20076",
+    "storage_bucket": "fireapp-20076.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:301564144511:android:f2b05ff54a73f6e6",
+        "android_client_info": {
+          "package_name": "com.example.praful.ShootMyShow"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "301564144511-msbql5ngrnkjmm1g7cs0me25bjfd2ejj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.praful.ShootMyShow",
+            "certificate_hash": "1f98bf20bdd98f6f27573d974ab736428350af98"
+          }
+        },
+        {
+          "client_id": "301564144511-gbcmb8s1knt6j2t5r1gq08t5hs9ffa0v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBL54WVz_1dUhrWQhIINGv_Sl00aK0RbR0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "301564144511-gbcmb8s1knt6j2t5r1gq08t5hs9ffa0v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:301564144511:android:b62881b598ca9f9f",
+        "android_client_info": {
+          "package_name": "com.example.praful.uber"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "301564144511-7i58rmoi4ftmqdqqosvsr1dat43g44ju.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.praful.uber",
+            "certificate_hash": "1f98bf20bdd98f6f27573d974ab736428350af98"
+          }
+        },
+        {
+          "client_id": "301564144511-gbcmb8s1knt6j2t5r1gq08t5hs9ffa0v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBL54WVz_1dUhrWQhIINGv_Sl00aK0RbR0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "301564144511-gbcmb8s1knt6j2t5r1gq08t5hs9ffa0v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:301564144511:android:3a012cc12c216daa",
+        "android_client_info": {
+          "package_name": "com.example.praful.ubercoustomer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "301564144511-r6o3ovq31virhc5dedk1o6tsp97daodr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.praful.ubercoustomer",
+            "certificate_hash": "1f98bf20bdd98f6f27573d974ab736428350af98"
+          }
+        },
+        {
+          "client_id": "301564144511-gbcmb8s1knt6j2t5r1gq08t5hs9ffa0v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBL54WVz_1dUhrWQhIINGv_Sl00aK0RbR0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "301564144511-gbcmb8s1knt6j2t5r1gq08t5hs9ffa0v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:301564144511:android:074c9ceff1bc209f",
+        "android_client_info": {
+          "package_name": "com.praful.praful.uber"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "301564144511-9ibpico9m7n8uuhboiuiag4cga6f321r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.praful.praful.uber",
+            "certificate_hash": "1f98bf20bdd98f6f27573d974ab736428350af98"
+          }
+        },
+        {
+          "client_id": "301564144511-gbcmb8s1knt6j2t5r1gq08t5hs9ffa0v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBL54WVz_1dUhrWQhIINGv_Sl00aK0RbR0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "301564144511-gbcmb8s1knt6j2t5r1gq08t5hs9ffa0v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

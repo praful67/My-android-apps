@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="2dp"
+                android:background="@android:color/darker_gray" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/black"
+                android:gravity="center"
+                android:paddingVertical="5dp"
+                android:text="What type of event Booking is this ? "
+                android:textColor="@android:color/white"
+                android:textSize="20dp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" * Tap to select"
+                android:textColor="@android:color/black" />
+
+            <ViewFlipper
+                android:id="@+id/VF"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="12dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="10dp">
+
+                    <LinearLayout
+                        android:id="@+id/functioneventlayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <RelativeLayout
+                                android:id="@+id/rlv1"
+                                android:layout_width="match_parent"
+                                android:layout_height="40dp"
+                                android:layout_gravity="left"
+                                android:layout_marginTop="5dp"
+                                android:background="@drawable/rectangle"
+                                android:gravity="left">
+
+                                <TextView
+                                    android:id="@+id/currentlocation"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_alignParentStart="true"
+                                    android:layout_alignParentTop="true"
+                                    android:background="@android:color/black"
+                                    android:gravity="center"
+                                    android:paddingHorizontal="2dp"
+                                    android:text="FUNCTION EVENT"
+                                    android:textColor="@android:color/holo_blue_dark"
+                                    android:textSize="15dp"
+                                    android:textStyle="bold" />
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_below="@+id/rlv1"
+                                android:layout_gravity="left"
+                                android:background="@drawable/triangle"
+                                android:rotation="180" />
+                        </LinearLayout>
+
+                        <com.felipecsl.gifimageview.library.GifImageView
+                            android:id="@+id/functioneventgif"
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:scaleType="fitCenter"
+
+                            />
+
+                        <com.felipecsl.gifimageview.library.GifImageView
+                            android:id="@+id/functioneventgif1"
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:scaleType="fitCenter"
+
+                            />
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="All Function events like Marriage , Wedding , Dinner , Sangeet ...etc"
+                            android:textColor="@android:color/black"
+                            android:textSize="15dp" />
+
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="12dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="10dp">
+
+                    <LinearLayout
+                        android:id="@+id/partyeventlayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="40dp"
+                                android:layout_gravity="left"
+                                android:layout_marginTop="5dp"
+                                android:background="@drawable/rectangle"
+                                android:gravity="left">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_alignParentStart="true"
+                                    android:layout_alignParentTop="true"
+                                    android:background="@android:color/black"
+                                    android:gravity="center"
+                                    android:paddingHorizontal="2dp"
+                                    android:text="PARTY EVENT"
+                                    android:textColor="@android:color/holo_blue_dark"
+                                    android:textSize="15dp"
+                                    android:textStyle="bold" />
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:id="@+id/rlv2"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_below="@+id/rlv1"
+                                android:layout_gravity="left"
+                                android:background="@drawable/triangle"
+                                android:rotation="180" />
+                        </LinearLayout>
+
+                        <com.felipecsl.gifimageview.library.GifImageView
+                            android:id="@+id/partyeventgif"
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:scaleType="fitCenter"
+
+                            />
+
+                        <com.felipecsl.gifimageview.library.GifImageView
+                            android:id="@+id/partyeventgif1"
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:scaleType="fitCenter"
+
+                            />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="All party events like Birthday party , Casual party ..etc"
+                            android:textColor="@android:color/black"
+                            android:textSize="15dp" />
+
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="12dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="10dp">
+
+                    <LinearLayout
+                        android:id="@+id/photoshooteventlayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="40dp"
+                                android:layout_gravity="left"
+                                android:layout_marginTop="5dp"
+                                android:background="@drawable/rectangle"
+                                android:gravity="left">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_alignParentStart="true"
+                                    android:layout_alignParentTop="true"
+                                    android:background="@android:color/black"
+                                    android:gravity="center"
+                                    android:paddingHorizontal="2dp"
+                                    android:text="PHOTOSHOOTING"
+                                    android:textColor="@android:color/holo_blue_dark"
+                                    android:textSize="15dp"
+                                    android:textStyle="bold" />
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:id="@+id/rlv2"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_below="@+id/rlv1"
+                                android:layout_gravity="left"
+                                android:background="@drawable/triangle"
+                                android:rotation="180" />
+                        </LinearLayout>
+
+                        <com.felipecsl.gifimageview.library.GifImageView
+                            android:id="@+id/photoshooteventgif"
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:scaleType="fitCenter"
+
+                            />
+
+                        <com.felipecsl.gifimageview.library.GifImageView
+                            android:id="@+id/photoshooteventgif1"
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:scaleType="fitCenter"
+
+                            />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="Lets do some photoshooting to get cool pics"
+                            android:textColor="@android:color/black"
+                            android:textSize="15dp" />
+
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+            </ViewFlipper>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/previousVF"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btnsignin_background"
+                    android:gravity="center"
+                    android:text="previous"
+                    android:textColor="@android:color/white" />
+
+                <Button
+                    android:id="@+id/nextVF"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btnsignin_background"
+                    android:gravity="center"
+                    android:text="next"
+                    android:textColor="@android:color/white" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="YOUR EVENT : "
+                    android:textColor="@android:color/black"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/myevent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:text="Event"
+                    android:textColor="@android:color/black"
+                    android:textSize="20dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/Continue"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btnsignin_background"
+                    android:gravity="center"
+                    android:text="CONTINUE"
+                    android:textColor="@android:color/white" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/cancel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:background="@drawable/btnsignin_background"
+                android:gravity="center"
+                android:text="CANCEL"
+                android:textColor="@android:color/holo_red_dark" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

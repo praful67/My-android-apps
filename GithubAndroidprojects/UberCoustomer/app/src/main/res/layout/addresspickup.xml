@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="2dp"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/black"
+                android:gravity="center"
+                android:text="Please select your booking's pick up address"
+                android:textColor="@android:color/white"
+                android:textSize="20dp"
+                android:paddingVertical="2dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal">
+
+                    <com.felipecsl.gifimageview.library.GifImageView
+                        android:id="@+id/currentlocationgif"
+                        android:layout_width="0dp"
+                        android:gravity="right"
+                        android:layout_marginVertical="20dp"
+                        android:layout_weight="1"
+                        android:layout_height="36dp"
+                        android:scaleType="fitCenter"
+
+                        />
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                    <RelativeLayout
+                        android:id="@+id/rlv1"
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:gravity="left"
+                        android:layout_gravity="left"
+                        android:background="@drawable/rectangle" >
+                        <TextView
+                            android:paddingHorizontal="2dp"
+                            android:id="@+id/currentlocation"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:background="@android:color/black"
+                            android:gravity="center"
+                            android:text="Select current location"
+                            android:textColor="@android:color/holo_blue_dark"
+                            android:textSize="15dp"
+                            android:textStyle="bold" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/rlv2"
+                        android:layout_width="50dp"
+                        android:layout_gravity="left"
+                        android:layout_height="50dp"
+                        android:layout_below="@+id/rlv1"
+                        android:background="@drawable/triangle"
+                        android:rotation="180" />
+                    </LinearLayout>
+                     </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal">
+
+                    <com.felipecsl.gifimageview.library.GifImageView
+                        android:id="@+id/tappedlocationgif"
+                        android:layout_width="0dp"
+                        android:gravity="right"
+                        android:layout_weight="1"
+                        android:layout_height="36dp"
+                        android:scaleType="fitCenter"
+
+                        />
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <RelativeLayout
+                            android:id="@+id/rlv3"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:gravity="left"
+                            android:layout_gravity="left"
+                            android:background="@drawable/rectangle" >
+
+                            <TextView
+                                android:paddingHorizontal="2dp"
+                                android:id="@+id/tappedlocation"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:background="@android:color/black"
+                                android:gravity="center"
+                                android:text="Select tapped location"
+                                android:textColor="@android:color/holo_blue_dark"
+                                android:textSize="15dp"
+                                android:textStyle="bold" />
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:id="@+id/rlv4"
+                            android:layout_width="50dp"
+                            android:layout_gravity="left"
+                            android:layout_height="50dp"
+                            android:layout_below="@+id/rlv1"
+                            android:background="@drawable/triangle"
+                            android:rotation="180" />
+                    </LinearLayout>       </LinearLayout>
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Your booking's pick up address  : "
+                android:textColor="@android:color/black"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/txtaddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="pick up address"
+                android:textColor="@android:color/black"
+                android:textSize="13dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/next"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="NEXT"
+                    android:background="@drawable/btnsignin_background"
+                    android:layout_marginBottom="3dp"
+                    android:textColor="@android:color/white"
+                    />
+
+               <!-- <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/ic_arrow_forward_black_24dp" />
+           --> </LinearLayout>
+
+            <Button
+                android:id="@+id/cancel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btnsignin_background"
+                android:gravity="center"
+                android:text="CANCEL"
+                android:textColor="@android:color/holo_red_dark"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:drawable/alert_light_frame"
+                android:text="You can select the address even by search bar. Just search , automatically that address will be set as your pick up address.
+Later you can change it by tapping above options.
+Tap on map to select Tapped Location"
+                android:textSize="12dp" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

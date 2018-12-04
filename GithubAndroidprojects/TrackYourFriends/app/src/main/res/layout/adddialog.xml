@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:id="@+id/d"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        android:weightSum="4">
+
+        <EditText
+            android:id="@+id/idF1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Type your Your 2nd Friend's ID" />
+
+        <EditText
+            android:id="@+id/idF2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Type your Your 3rd Friend's ID" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <Button
+                android:id="@+id/findF"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="#55aaab"
+                android:text="FIND" />
+
+            <Button
+                android:id="@+id/cancel"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="#55aaab"
+                android:text="Close" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text=" * You can atmost find 3 friends at once. All fields are optional "
+            android:textColor="@android:color/black" />
+    </LinearLayout>
+
+
+</RelativeLayout>

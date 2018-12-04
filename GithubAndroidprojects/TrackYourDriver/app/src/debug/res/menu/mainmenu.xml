@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_refresh"
+            android:icon="@drawable/refresh"
+            android:title="More" />
+        <item
+            android:id="@+id/nav_check"
+            android:icon="@drawable/check"
+            android:title="Map" />
+        <item
+            android:id="@+id/nav_driverlogin"
+            android:icon="@drawable/driver1"
+            android:title="Login Driver" />
+        <item
+            android:id="@+id/nav_driverlogout"
+            android:icon="@drawable/driver1"
+            android:title="Logout Driver" />
+
+
+    </group>
+
+
+</menu>

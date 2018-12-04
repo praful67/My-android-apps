@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "344908351973",
+    "firebase_url": "https://fir-24867.firebaseio.com",
+    "project_id": "fir-24867",
+    "storage_bucket": "fir-24867.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:344908351973:android:ca98f42ac49572ab",
+        "android_client_info": {
+          "package_name": "com.praful.firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "344908351973-efjm7v9u194uqugifo5osdbpj4o8hbk2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.praful.firebase",
+            "certificate_hash": "1f98bf20bdd98f6f27573d974ab736428350af98"
+          }
+        },
+        {
+          "client_id": "344908351973-04finepor88ruvnbbk0336sbndopesg9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfWzPLmGZuZeeJC4yGwe9j6cCrS-Cdimw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "344908351973-04finepor88ruvnbbk0336sbndopesg9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

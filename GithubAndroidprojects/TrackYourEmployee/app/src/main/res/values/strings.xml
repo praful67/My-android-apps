@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Ryan Cab Driver</string>
+    <string name="title_activity_map">Map</string>
+    <string name="title_activity_map1">Map</string>
+    <string name="title_activity_mapfornearestone">Map</string>
+
+    <array name="menuOptions">
+        <item>SOS</item>
+        <item>Employees List</item>
+        <item>Drivers List</item>
+        <item>Created</item>
+        <item>Read</item>
+    </array>
+</resources>

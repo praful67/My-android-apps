@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:showIn="@layout/activity_map">
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp" />
+
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginVertical="70dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="93dp"
+        android:visibility="gone"></Switch>
+
+    <Switch
+        android:id="@+id/switch3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginVertical="70dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="93dp"
+        android:visibility="gone"></Switch>
+
+
+    <Switch
+        android:id="@+id/switch2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginVertical="70dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="93dp"
+        android:visibility="gone"></Switch>
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="17dp"
+        android:id="@+id/currentlocation"
+        android:tint="@android:color/holo_blue_bright"
+        android:src="@drawable/ic_location_on_black_24dp"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/sos"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="bottom|left"
+        android:layout_marginTop="97dp"
+        android:background="@drawable/sos"
+        android:fontFamily="@font/exoreg"
+        android:text="SOS"
+        android:textStyle="bold" />
+
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:paddingBottom="10dp">
+
+
+        <com.leinardi.android.speeddial.SpeedDialOverlayLayout
+            android:id="@+id/overlay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <com.leinardi.android.speeddial.SpeedDialView
+            android:id="@+id/speedDial"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            app:layout_behavior="@string/speeddial_scrolling_view_snackbar_behavior"
+            app:sdMainFabClosedBackgroundColor="@android:color/holo_blue_bright"
+            app:sdMainFabClosedSrc="@drawable/moreh"
+            app:sdMainFabOpenedBackgroundColor="@android:color/holo_blue_dark"
+            app:sdMainFabOpenedSrc="@drawable/more"
+            app:sdOverlayLayout="@id/overlay"
+            app:sdUseReverseAnimationOnClose="true" />
+
+    </android.support.design.widget.CoordinatorLayout>
+
+
+</RelativeLayout>
+
+
+

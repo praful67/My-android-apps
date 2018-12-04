@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Help">
+
+    <ScrollView
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/black"
+                android:gravity="center"
+                android:paddingVertical="10dp"
+                android:text="WELCOME"
+                android:textColor="@android:color/holo_blue_light"
+                android:textSize="20dp" />
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/back"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:src="@drawable/ic_arrow_back_black_24dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="This app is for those who are having a Organization of camera services or to say having a camera studio who give their services for events like Functions (Wedding , Marriage , Dinner , Silver jublee ..etc) , events like Birthday party or College party and  events like Photoshooting .
+This app has a corresponding app which is used by customers.
+You will be booked by them . You have to turn ON your GPS . For some mobiles even after tuning ON the gps it may doesnot show you your location , in that case please restart your mobile."
+                android:textColor="@android:color/black"
+                android:textSize="12dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10dp"
+                android:text="How they will book you ?"
+                android:textColor="@android:color/black"
+                android:textSize="25dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="On app starting itself you will go online automatically and they will see you in their Customer's app as a camera icon on Map"
+                android:textColor="@android:color/black"
+                android:textSize="12dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_marginVertical="10dp"
+                android:layout_height="200dp"
+                android:src="@drawable/onlineonstart" />
+
+            <com.google.android.gms.ads.AdView
+                android:id="@+id/ad_banner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginVertical="10dp"
+                app:adSize="BANNER"
+                app:adUnitId="@string/ad_banner" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10dp"
+                android:text="CUSTOMER'S APP : "
+                android:textColor="@android:color/black"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/mapc" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginVertical="10dp"
+                android:layout_height="wrap_content"
+                android:text="You will booked depending upon the the method the customer use. There are two methods for customer to book.
+One is booking the studio which is nearest to their current location. Second is manual booking , they can select their studio of their choice and book that studio.
+If they book you(may be that your the nearest one or done by manual selecting) , you will get a  Notification with ringtone as soon as they submit their booking."
+                android:textColor="@android:color/black"
+
+                android:textSize="12dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="If your busy , want to become unavailable for customers and want to go offline , Just tap on that switch"
+                android:textColor="@android:color/black"
+                android:textSize="15dp" />
+
+           <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="What will you see in Booking Request Notification ? "
+                android:textColor="@android:color/black"
+                android:textSize="20dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="20dp"
+                android:text="You will be seeing  :
+1 ) Booking Address , Where you should go and meet the customer
+2 ) Booking Date and Time
+3 ) Distance from your current location to that Booking Address and Time for this travel (So that you can judge upon distance and then accept the Booking request )
+4 )Customer's Name  , Phone , his/her current location address ( you can know from where you are getting the requests ! )"
+                android:textColor="@android:color/black"
+                android:textSize="12dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="You will be getting one Booking request at a time "
+                android:textColor="@android:color/black"
+                android:textSize="12dp" />
+
+            <com.google.android.gms.ads.AdView
+                android:id="@+id/ad_banner1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginVertical="20dp"
+                app:adSize="BANNER"
+                app:adUnitId="@string/ad_banner" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:drawable/alert_light_frame"
+                android:text="Their is noo need to keep the app always open . But remember to open the app once (so that you go online and be available to customers), then only press your HOME button and then you can even remove it in background but your location wont be updated. The instant you remove the app in background , your current location at that instant will be saved and customer will see you at that instant location on map and there is chances of not recieving that booking request and not getting notified. Again when you open the app your current location will be updated.
+At last just remember to open this app atleast for three times a day to be updated and DONT remove the app in background for SAFETY , you can remove but again you may or may not be notified , that will reduce from 100% to 75% chance of getting the booking"
+                android:textColor="@android:color/black"
+                android:textSize="12dp" />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="20dp"
+                android:background="@android:drawable/alert_light_frame"
+                android:text="If you get a booking and your screen is off you wont be notified but as soon as you screen on your phone you will be notified"
+                android:textColor="@android:color/black"
+                android:textSize="15dp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:drawable/alert_light_frame"
+                android:text="We just help you to find customers , All BILLINGS , PAYMENTS and LOCATION PERMISSIONS ARE TO BE HANDLED BY CUSTOMER OR STUDIO PRIVATELY. We dont give studio except for your Booking.
+Any issues regarding only about the app , can email to 'shootmyshowmyapp123@gmail.com' and new cool features are comming soon so be updated.
+"
+                android:textColor="@android:color/black"
+                android:textSize="15dp" />
+
+            <com.google.android.gms.ads.AdView
+                android:id="@+id/ad_banner2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginVertical="20dp"
+                app:adSize="BANNER"
+                app:adUnitId="@string/ad_banner" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:drawable/alert_light_frame"
+                android:text="We gureenty you that you will be getting Bookings from customer"
+                android:textColor="@android:color/black"
+                android:textSize="15dp"
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="HAPPY BOOKINGS !"
+                android:textColor="@android:color/black"
+                android:textSize="30dp"
+
+                />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

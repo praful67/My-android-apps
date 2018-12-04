@@ -1,0 +1,187 @@
+{
+  "project_info": {
+    "project_number": "130594060572",
+    "firebase_url": "https://shootmyshow-3d7a6.firebaseio.com",
+    "project_id": "shootmyshow-3d7a6",
+    "storage_bucket": "shootmyshow-3d7a6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:130594060572:android:1d2bcf2b03f64e41",
+        "android_client_info": {
+          "package_name": "com.Shootmyshow.praful.shootmyshow"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "130594060572-ege61ojb1h7vcpcp1vvp54u4jnojan9c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.Shootmyshow.praful.shootmyshow",
+            "certificate_hash": "1f98bf20bdd98f6f27573d974ab736428350af98"
+          }
+        },
+        {
+          "client_id": "130594060572-bo8esa84eua6a3uhvo0co1i00gueitbj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkLgSLsIiGNfdc2BwgZ3Ojmw5GjhOVBkk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "130594060572-bo8esa84eua6a3uhvo0co1i00gueitbj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:130594060572:android:c7c22411127a7b46",
+        "android_client_info": {
+          "package_name": "com.Shootmyshow.praful.shootmyshow_company"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "130594060572-9h3lvm8nqfhttp7i3hdjepm0f2t852k6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.Shootmyshow.praful.shootmyshow_company",
+            "certificate_hash": "1f98bf20bdd98f6f27573d974ab736428350af98"
+          }
+        },
+        {
+          "client_id": "130594060572-bo8esa84eua6a3uhvo0co1i00gueitbj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkLgSLsIiGNfdc2BwgZ3Ojmw5GjhOVBkk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "130594060572-bo8esa84eua6a3uhvo0co1i00gueitbj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:130594060572:android:6cf062fe2b28fc83",
+        "android_client_info": {
+          "package_name": "com.shootmyshow.praful.shootmyshow"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "130594060572-98ca0omronss5gve7qga70t8vuaihr6c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.shootmyshow.praful.shootmyshow",
+            "certificate_hash": "1f98bf20bdd98f6f27573d974ab736428350af98"
+          }
+        },
+        {
+          "client_id": "130594060572-bo8esa84eua6a3uhvo0co1i00gueitbj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkLgSLsIiGNfdc2BwgZ3Ojmw5GjhOVBkk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "130594060572-bo8esa84eua6a3uhvo0co1i00gueitbj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:130594060572:android:f6961c2443a3d6af",
+        "android_client_info": {
+          "package_name": "com.shootmyshow.praful.shootmyshow_company"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "130594060572-93o470rsjo6tevehohl1oqbsqvndljdm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.shootmyshow.praful.shootmyshow_company",
+            "certificate_hash": "1f98bf20bdd98f6f27573d974ab736428350af98"
+          }
+        },
+        {
+          "client_id": "130594060572-bo8esa84eua6a3uhvo0co1i00gueitbj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkLgSLsIiGNfdc2BwgZ3Ojmw5GjhOVBkk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "130594060572-bo8esa84eua6a3uhvo0co1i00gueitbj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dev.praful.admintracker">
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality. 
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ryanicon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ryanicon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".Maps"
+            android:configChanges="screenLayout|screenSize|orientation"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".List"
+            android:configChanges="screenLayout|screenSize|orientation" />
+        <activity
+            android:name=".Driverslist"
+            android:configChanges="screenLayout|screenSize|orientation" />
+        <activity
+            android:name=".Employeeslist"
+            android:configChanges="screenLayout|screenSize|orientation" />
+        <activity
+            android:name=".Carslist"
+            android:configChanges="screenLayout|screenSize|orientation" />
+        <activity android:name=".SelectedCar" />
+        <activity
+            android:name=".Selectdriver"
+            android:configChanges="screenLayout|screenSize|orientation" />
+        <activity
+            android:name=".Selectemployees"
+            android:configChanges="screenLayout|screenSize|orientation" />
+        <activity
+            android:name=".CurrentCardetails"
+            android:configChanges="screenLayout|screenSize|orientation"
+            android:parentActivityName=".Carslist" />
+        <activity
+            android:name=".Editfinalemployeedetails"
+            android:configChanges="screenLayout|screenSize|orientation" />
+        <activity
+            android:name=".Driverdetailspage"
+            android:configChanges="screenLayout|screenSize|orientation" />
+        <activity
+            android:name=".Cardetails"
+            android:configChanges="screenLayout|screenSize|orientation" />
+        <activity
+            android:name=".Employeedetailspage"
+            android:configChanges="screenLayout|screenSize|orientation" />
+        <activity
+            android:name=".Editcar"
+            android:configChanges="screenLayout|screenSize|orientation" />
+        <activity
+            android:name=".Editemployeeprofile"
+            android:configChanges="screenLayout|screenSize|orientation" />
+        <activity
+            android:name=".Editdriverprofile"
+            android:configChanges="screenLayout|screenSize|orientation" />
+        <activity
+            android:name=".Editemployeeaddress"
+            android:configChanges="screenLayout|screenSize|orientation" />
+        <activity
+            android:name=".Editdriveraddress"
+            android:configChanges="screenLayout|screenSize|orientation" />
+        <activity
+            android:name=".Seeonmap"
+            android:configChanges="screenLayout|screenSize|orientation" />
+        <activity
+            android:name=".EmployeesTimeoff"
+            android:configChanges="screenLayout|screenSize|orientation" />
+        <activity
+            android:name=".PastTimeoffs"
+            android:configChanges="screenLayout|screenSize|orientation" />
+        <activity
+            android:name=".Trackemployee"
+            android:configChanges="screenLayout|screenSize|orientation" />
+        <activity
+            android:name=".Trackdriver"
+            android:configChanges="screenLayout|screenSize|orientation" />
+
+        <service
+            android:name=".MyService"
+            android:enabled="true"
+            android:exported="true"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+
+        <activity
+            android:name=".Addemployee"
+            android:configChanges="screenLayout|screenSize|orientation" />
+        <activity
+            android:name=".CreatedDrivers"
+            android:configChanges="screenLayout|screenSize|orientation" />
+        <activity
+            android:name=".SeeonmapC"
+            android:configChanges="screenLayout|screenSize|orientation"
+            android:label="@string/title_activity_seeonmap_c" />
+        <activity
+            android:name=".Loginout"
+            android:configChanges="screenLayout|screenSize|orientation" />
+        <activity
+            android:name=".Employeescomment"
+            android:configChanges="screenLayout|screenSize|orientation" />
+        <activity android:name=".Atonesightempty" />
+        <activity android:name=".ListofRostersets" />
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="9f03e96116d760166671c8421d682a6351310735" />
+
+        <activity android:name=".SetRosterdetails"></activity>
+    </application>
+
+</manifest>

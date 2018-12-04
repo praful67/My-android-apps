@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">UberCoustomer</string>
+    <string name="title_activity_welcome">Map</string>
+    <string name="title_activity_home">Home</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="FACEBOOK_APP_ID">475854912844425</string>
+    <string name="ACCOUNT_KIT_CLIENT_TOKEN">9ad7a1ed3c986697d01b741bc275199f</string>
+
+    <string name="google_direction_api">AIzaSyBOBsY2CD8D6Hva0FOot_H8IbDkf63VBhI</string>
+    <string name="title_activity_call_companyfor_advance_booking">Map</string>
+
+</resources>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Help">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/black"
+                android:gravity="center"
+                android:paddingVertical="10dp"
+                android:text="WELCOME"
+                android:textColor="@android:color/holo_blue_light"
+                android:textSize="25dp" />
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/back"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:src="@drawable/ic_arrow_back_black_24dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="This app is for those who are having a company of camera services or to say having a camera studio who give their services for events like Functions (Wedding , Marriage , Dinner , Silver jublee ..etc) , events like Birthday party or College party and  events like Photoshooting .
+This app has a corresponding app which is used by customers.
+You will be booked by them ."
+                android:textColor="@android:color/black"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10dp"
+                android:text="How they will book you ?"
+                android:textSize="25dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="On app starting itself you will go online automatically and they will see you in their Customer's app as a camera icon on Map"
+                android:textSize="15dp" />
+
+            <ImageView
+                android:src="@drawable/onlineonstart"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10dp"
+                android:text="CUSTOMER'S APP : "
+                android:textSize="20dp" />
+
+            <ImageView
+                android:src="@drawable/mapc"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="You will booked depending upon the the method the customer use. There are two methods for customer to book.
+One is booking the company which is nearest to their current location. Second is manual booking , they can select their company of their choice and book that company.
+If they book you(may be that your the nearest one and done by manual selecting) , you will get a  Notification with ringtone as soon as they submit their booking."
+
+                android:textSize="15dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="If your busy , want to become unavailable for customers and want to go offline , Just tap on that switch"
+                android:textColor="@android:color/black"
+                android:textSize="15dp" />
+
+            <ImageView
+                android:src="@drawable/offline"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:drawable/alert_light_frame"
+                android:text="Their is noo need to keep the app always open . But remember to open the app once (so that you go online and be available to customers), then only press your HOME button and then you can even remove it in background but your location wont be updated. The instant you remove the app in background , your current location at that instant will be saved and customer will see you at that instant location on map and there is chances of not recieving that booking request and not getting notified. Again when you open the app your current location will be updated.
+At last just remember to open this app atleast for three times a day to be updated and DONT remove the app in background for SAFETY , you can remove but again you may or may not be notified , that will reduce from 100% to 75% chance of getting the booking"
+                android:textColor="@android:color/black"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10dp"
+                android:text="App in background : "
+                android:textColor="@android:color/black"
+                android:textSize="15dp" />
+
+            <ImageView
+                android:src="@drawable/appinback"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:drawable/alert_light_frame"
+                android:text="If you get a booking and your screen is off you wont be notified but as soon as you screen on your phone you will be notified"
+                android:textColor="@android:color/black"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:drawable/alert_light_frame"
+                android:text="We gureenty you that you will be getting Bookings from customer"
+                android:textColor="@android:color/black"
+                android:textSize="15dp"
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="HAPPY BOOKINGS !"
+                android:textColor="@android:color/black"
+                android:textSize="30dp"
+
+                />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

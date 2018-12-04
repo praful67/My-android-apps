@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.Shootmyshow.praful.shootmyshow">
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality. 
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher1"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.facebook.accountkit.ApplicationName"
+            android:value="@string/app_name" />
+        <meta-data xmlns:tools="http://schemas.android.com/tools"
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id"
+            tools:replace="android:value" />
+        <meta-data
+            android:name="com.facebook.accountkit.ClientToken"
+            android:value="@string/ACCOUNT_KIT_CLIENT_TOKEN" />
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <service
+            android:name=".Service.MyFirebaseIdService"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name=".Service.MyFirebaseMessaging"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name=".Home"
+            android:label="@string/title_activity_home" />
+        <!--
+        <activity android:name=".AdvanceBookings" />
+        <activity android:name=".CancelledBookings" />
+        <activity android:name=".CompletedBookings" />
+        <activity android:name=".Listofavailablecompanies" />
+        -->
+
+        <service
+            android:name=".MyService"
+            android:enabled="true"
+            android:exported="true"
+            />
+
+        <receiver
+            android:name=".MyReceiver"
+            android:enabled="true"
+            android:exported="true" />
+
+        <!-- <activity android:name=".Howtouse" /> -->
+
+        <activity android:name=".RateActivity" />
+        <activity android:name=".CallCompany" />
+        <activity
+            android:name=".DeclinedWindow"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".AcceptedWindow"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".AdvanceBookings"
+            android:parentActivityName=".Home"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".CompanyInfo" />
+        <activity android:name=".AdvanceBookingsDetails" />
+        <activity
+            android:name=".CompanycancelledtheBooking"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".CancelledBookings"
+            android:parentActivityName=".Home"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".VerifyingCompletedBooking" />
+        <activity
+            android:name=".CompletedBookings"
+            android:parentActivityName=".Home"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Tc"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Onthewayandimreached"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".RateactivityforAdvanceBooking"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".CallCompanyforAdvanceBooking"
+            android:label="@string/title_activity_call_companyfor_advance_booking"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Howtouse"
+            android:parentActivityName=".Home"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".Listofavailablecompanies" />
+        <activity android:name=".Availablecompanydetails" />
+
+        <!--
+        <activity
+            android:name=".CallCompanyforAdvanceBooking"
+            android:label="@string/title_activity_call_companyfor_advance_booking" />
+        <activity android:name=".AdvanceBookingsDetails"></activity>
+        -->
+        <activity android:name=".Profile" />
+        <activity android:name=".Intro" />
+        <activity android:name=".Whentouse" />
+        <activity android:name=".Response" />
+
+        <!--     <service
+             android:name=".JobService"
+               android:permission="android.permission.BIND_JOB_SERVICE"
+               android:enabled="true"
+               android:exported="true"></service>
+           <service
+               android:name=".MyJobIntentService"
+               android:exported="false"
+               android:permission="android.permission.BIND_JOB_SERVICE"/>
+   -->
+    </application>
+
+</manifest>

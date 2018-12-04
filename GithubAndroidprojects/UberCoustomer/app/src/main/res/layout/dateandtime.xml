@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <View
+                android:background="@android:color/darker_gray"
+                android:layout_width="wrap_content"
+                android:layout_height="2dp"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:background="@android:color/black"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="On which date do you want to book ? "
+                    android:textColor="@android:color/white"
+                    android:textSize="20dp"
+                    android:paddingVertical="5dp"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="2"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <RelativeLayout
+                            android:id="@+id/rlv1"
+                            android:layout_marginTop="5dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:gravity="left"
+                            android:layout_gravity="left"
+                            android:background="@drawable/rectangle" >
+
+                            <TextView
+                                android:id="@+id/currentlocation"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_alignParentStart="true"
+                                android:layout_alignParentTop="true"
+                                android:background="@android:color/black"
+                                android:gravity="center"
+                                android:paddingHorizontal="2dp"
+                                android:text="Date"
+                                android:textColor="@android:color/holo_blue_dark"
+                                android:textSize="15dp"
+                                android:textStyle="bold" />
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:id="@+id/rlv2"
+                            android:layout_width="50dp"
+                            android:layout_gravity="left"
+                            android:layout_height="50dp"
+                            android:layout_below="@+id/rlv1"
+                            android:background="@drawable/triangle"
+                            android:rotation="180" />
+                    </LinearLayout>
+                    <TextView
+                        android:id="@+id/txtDate"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center"
+                        android:text="July 27 , 2018"
+                        android:textColor="@android:color/black"
+                        android:textSize="17dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:background="@android:color/black"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="On what time do you want to book ? "
+                    android:textColor="@android:color/white"
+                    android:textSize="20dp"
+                    android:paddingVertical="5dp"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="2"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <RelativeLayout
+                            android:layout_marginTop="5dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:gravity="left"
+                            android:layout_gravity="left"
+                            android:background="@drawable/rectangle" >
+                            <TextView
+                                android:paddingHorizontal="2dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="@android:color/black"
+                                android:gravity="center"
+                                android:text="Time"
+                                android:textColor="@android:color/holo_blue_dark"
+                                android:textSize="15dp"
+                                android:textStyle="bold" />
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:id="@+id/rlv2"
+                            android:layout_width="50dp"
+                            android:layout_gravity="left"
+                            android:layout_height="50dp"
+                            android:layout_below="@+id/rlv1"
+                            android:background="@drawable/triangle"
+                            android:rotation="180" />
+                    </LinearLayout>
+                    <TextView
+                        android:id="@+id/txtTime"
+                        android:layout_width="0dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="9 : 57 PM"
+                        android:textColor="@android:color/black"
+                        android:textSize="17dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+              <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="NEXT"
+                    android:id="@+id/next"
+                    android:background="@drawable/btnsignin_background"
+                    android:textColor="@android:color/white"
+                    />
+
+               </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="CANCEL"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/btnsignin_background"
+                android:id="@+id/cancel"
+                android:textColor="@android:color/holo_red_dark"
+                />
+        </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

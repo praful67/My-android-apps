@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CancelledBookings">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="@android:color/darker_gray"/>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:id="@+id/l3"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="CANCELLED BOOKINGS"
+            android:background="@android:color/black"
+            android:paddingVertical="5dp"
+            android:textColor="@android:color/holo_blue_light"
+            android:textStyle="bold"
+            android:textSize="20dp"
+
+            />
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/back"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_arrow_back_black_24dp" />
+
+    </LinearLayout>
+
+        <TextView
+            android:textSize="40dp"
+            android:visibility="invisible"
+            android:id="@+id/t"
+            android:gravity="center_horizontal|center"
+            android:text="NO CANCELLED BOOKINGS"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    <ListView
+        android:id="@+id/listofcancelledbookings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></ListView>
+    </LinearLayout>
+
+
+</RelativeLayout>

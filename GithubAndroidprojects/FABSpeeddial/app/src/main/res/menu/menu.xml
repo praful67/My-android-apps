@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_sos"
+            android:icon="@drawable/sos"
+            android:title="SOS" />
+
+        <item
+            android:id="@+id/nav_employees"
+            android:icon="@drawable/employee"
+            android:title="Employees List" />
+        <item
+            android:id="@+id/nav_drivers"
+            android:icon="@drawable/steering"
+            android:title="Drivers List" />
+        <item
+            android:id="@+id/nav_create"
+            android:icon="@drawable/employeeadd"
+            android:title="Created Emp and Drivers" />
+
+        <item
+            android:id="@+id/nav_read"
+            android:icon="@drawable/read"
+            android:title="Read" />
+
+
+    </group>
+
+
+</menu>
