@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_more"
+            android:icon="@drawable/sets"
+            android:title="More" />
+        <item
+            android:id="@+id/nav_map"
+            android:icon="@drawable/line"
+            android:title="Map" />
+        <item
+            android:id="@+id/nav_cal"
+            android:icon="@drawable/calculate"
+            android:title="Calculate" />
+        <item
+            android:id="@+id/nav_edit"
+            android:icon="@drawable/edit"
+            android:title="Edit" />
+
+
+
+    </group>
+
+
+</menu>

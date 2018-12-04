@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Maps">
+
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true" />
+
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+    <Switch
+        android:id="@+id/switch2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="85dp"
+        android:visibility="gone"></Switch>
+
+    <ImageView
+        android:id="@+id/comeup"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="75dp"
+        android:layout_marginEnd="43dp"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/up1" />
+    <android.support.design.widget.CoordinatorLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp">
+
+        <android.support.v4.widget.NestedScrollView
+            android:id="@+id/bottomsheet"
+            android:layout_width="match_parent"
+            android:layout_height="185dp"
+            android:background="@android:color/white"
+            app:behavior_hideable="true"
+            app:behavior_peekHeight="65dp"
+            app:layout_behavior="@string/bottom_sheet_behavior">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:background="@android:color/white"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:orientation="horizontal"
+                    android:weightSum="3">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:weightSum="3">
+
+                        <android.support.design.widget.FloatingActionButton
+                            android:id="@+id/currentlocation1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:src="@drawable/location"
+                            map:rippleColor="@android:color/white" />
+
+
+                        <android.support.design.widget.FloatingActionButton
+                            android:id="@+id/refresh"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_alignStart="@+id/currentlocation1"
+                            android:layout_centerVertical="true"
+                            android:layout_marginStart="10dp"
+                            android:layout_weight="1"
+                            android:src="@drawable/refresh"
+                            map:rippleColor="@android:color/white" />
+
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/up"
+                        android:layout_width="0dp"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:src="@drawable/up1" />
+
+                    <ImageView
+                        android:id="@+id/down"
+                        android:layout_width="0dp"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:src="@drawable/down1"
+                        android:visibility="gone" />
+
+                </LinearLayout>
+
+                <!--    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/t1"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:background="#FFF4F7F7">
+
+                        <fragment
+                            android:id="@+id/place_location"
+                            android:name="com.google.android.gms.location.places.ui.PlaceAutocompleteFragment"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true" />
+                    </LinearLayout>-->
+
+                <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    xmlns:tools="http://schemas.android.com/tools"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    tools:context="com.asksira.loopingviewpagerdemo.MainActivity">
+
+                    <com.asksira.loopingviewpager.LoopingViewPager
+                        android:id="@+id/viewpager"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        app:autoScroll="false"
+                        app:isInfinite="true"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:scrollInterval="3000"
+                        app:wrap_content="true" />
+
+                    <com.rd.PageIndicatorView
+                        android:id="@+id/indicator"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        app:layout_constraintBottom_toBottomOf="@id/viewpager"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:piv_animationDuration="200"
+                        app:piv_animationType="slide"
+                        app:piv_interactiveAnimation="true" />
+
+
+                </android.support.constraint.ConstraintLayout>
+
+                <!--
+                                <com.gigamole.infinitecycleviewpager.HorizontalInfiniteCycleViewPager
+                                    android:id="@+id/cycle"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="125dp"
+                                    app:icvp_center_page_scale_offset="30dp"
+                                    app:icvp_interpolator="@android:anim/accelerate_decelerate_interpolator"
+                                    app:icvp_max_page_scale="0.6"
+                                    app:icvp_medium_scaled="false"
+                                    app:icvp_min_page_scale="0.50"
+                                    app:icvp_min_page_scale_offset="5dp"
+                                    app:icvp_scroll_duration="250"></com.gigamole.infinitecycleviewpager.HorizontalInfiniteCycleViewPager>
+                -->
+            </LinearLayout>
+
+
+        </android.support.v4.widget.NestedScrollView>
+    </android.support.design.widget.CoordinatorLayout>
+
+
+</RelativeLayout>
